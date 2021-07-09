@@ -1,0 +1,22 @@
+@import '../../../styles/variables.scss';
+@import '../../../styles/mixins.scss';
+
+.a-link{
+    color:$white;
+    text-decoration: none;
+    font-size: large;
+    font-family: $lf-bold;
+
+    &:hover{
+        color:$greenNeon;
+    }
+
+    &:active{
+        color:$greenDark;
+    }
+
+    &--footer{
+        font-family: $lf-medium;
+        font-size: medium;
+    }
+}

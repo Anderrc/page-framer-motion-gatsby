@@ -1,0 +1,30 @@
+@import '../../../styles/variables.scss';
+@import '../../../styles/mixins.scss';
+.step{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba($white, 0.15);
+    padding: 20px;
+    border-radius: 20px;
+
+    &__img{
+        width: 30%;
+        margin-bottom: 5px;
+    }
+    &__title{
+        color: $white;
+        font-family: $lf-bold;
+        font-size: large;
+        margin-bottom: 5px;
+
+    }
+    &__content{
+        color: $white;
+        font-family: $lf-light;
+        font-size: medium;
+        line-height: 23px;
+        text-align: center;
+    }
+}

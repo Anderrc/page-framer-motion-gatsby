@@ -1,0 +1,44 @@
+@import 'variables.scss';
+
+
+body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: $white;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: $greenBase;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    // border: 3px solid orange;  /* creates padding around scroll thumb */
+  }
+
+.text-white{
+  color: $white;
+}
+
+
+#Capa_1 {
+  width: 100px;
+  text-align: center;
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  fill: $white;
+}
+
+#Capa_1 > path {
+  stroke: dark;
+  stroke-width: 0.5px;
+}
+
+
+#Layer_1> path {
+  stroke: $greenDark;
+  stroke-width: 0.5px;
+}

@@ -1,0 +1,51 @@
+
+
+/*-------- Fonts --------*/
+
+$mon-bold :"Montserrat-Bold";
+$mon-extrabold :"Montserrat-ExtraBold";
+$mon-light:"Montserrat-Light";
+$mon-medium :"Montserrat-Medium";
+$mon-regular:"Montserrat-Regular";
+$mon-semibold :"Montserrat-SemiBold";
+
+$lf-bold :"LibreFranklin-Bold";
+$lf-extrabold :"LibreFranklin-ExtraBold";
+$lf-light:"LibreFranklin-Light";
+$lf-medium :"LibreFranklin-Medium";
+$lf-regular:"LibreFranklin-Regular";
+$lf-semibold :"LibreFranklin-SemiBold";
+
+
+/*-------- Breakpoints --------*/
+$small: 440px; /*-------- Mobile devices*/
+$s-medium: 570px; /*-------- Tablet devices*/
+$medium: 768px;
+$large: 960px; 
+$x-large: 1060px; /*-------- Desktop devices*/
+$xx-large: 1250px;
+$xxx-large: 1440px;
+$high-quality: 1700px;
+
+
+/*-------- Colors --------*/
+
+$gray: #C4C4C4;
+$grayDisabled: #C5C3C9;
+$greenBase: #00D455;
+$greenNeon: #0DF96C;
+$greenDark: #009F5C;
+$orangeBase: #FF7000;
+$orangeNeon: #FF8000;
+$orangeDark: #FF6000;
+$white: #FFFFFF;
+$purple: #1D1828;
+$black: #000000;
+/*-------- Z-index --------*/
+$z-back: -1;
+$z-none: 0;
+$z-floor: 1;
+$z-medium: 10;
+$z-up: 50;
+$z-top: 100;
+$z-super: 200;

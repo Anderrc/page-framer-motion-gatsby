@@ -1,0 +1,34 @@
+@import '../../../styles/variables.scss';
+@import '../../../styles/mixins.scss';
+
+.a-button{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-family: $lf-bold;
+
+    &--primary{
+        color: $white;
+        background: $greenBase;
+
+        &:hover{
+            background: $greenNeon;
+        }
+        &:active{
+            background: $greenDark;
+        }
+    }
+
+    &--secondary{
+        color: $white;
+        background: $orangeBase;
+
+        &:hover{
+            background: $orangeNeon;
+        }
+        &:active{
+            background: $orangeDark;
+        }
+    }
+}

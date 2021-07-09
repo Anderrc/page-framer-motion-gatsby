@@ -1,0 +1,34 @@
+@import '../../../styles/variables.scss';
+@import '../../../styles/mixins.scss';
+
+.o-footer {
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    background: $black;
+    color: $white;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+
+    &__lists{
+        display: flex;
+        flex-direction: row;
+        max-width: 1250px;
+        margin: 0 auto;
+
+        .list{
+            padding: 20px;
+            width: 226px;
+
+            &__link{
+                padding: 20px 0px;
+            }
+
+            &__title{
+                padding-bottom:20px ;
+            }
+        }
+    }
+
+}
